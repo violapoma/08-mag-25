@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaggia con noi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4606651876.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid">
+                <div class="logoDiv">
+                    <img class="d-block w-100" src="https://uiconstock.com/wp-content/uploads/2014/12/logo-1.png"
+                        alt="logo">
+                </div>
+
+                <a class="navbar-brand" href="#">Viaggia con noi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#jumbotron">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Filtra per offerta
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#offertaSettimana">Offerta della settimana</a></li>
+                                <li><a class="dropdown-item" href="#welcomeSummer">Welcome summer</a></li>
+                                <li><a class="dropdown-item d-none d-md-block" href="#offertaGiorno">Offerta del
+                                        giorno</a></li>
+                                <li><a class="dropdown-item" href="#lastMinute">Last minute!</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="m-5">
+
+        <!-- Modal -->
+        <div id="contactUsModal" class="modal fade" tabindex="-1" aria-labelledby="contactUsModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="contactUsModal">Contattaci</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
+                    </div>
+                    <div id="compila" class="modal-body row m-2">
+                        <label for="email" class="col-6">Insderisci la tua email</label>
+                        <input type="email" name="email" id="email" class="col-6">
+                        <label for="proposta" class="col-6">La tua proposta:</label>
+                        <textarea id="proposta" name="proposta" class="col-6"></textarea>
+                    </div>
+                    <div id="compilato" class="modal-body m2" hidden>
+                        <div>
+                            <span class="fs-4">Grazie! Riceverai presto una mail di conferma dal nostro staff ♥︎</span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button id="send" type="button" class="btn btn-primary" onclick="checkCampi()">Invia</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- MODAL OFFERTA -->
+        <div class="modal fade w-100" id="offerModal" tabindex="-1" aria-labelledby="offerModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog w-75">
+                <div class="modal-content">
+                    <div class="modal-header flex-column">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h2 class="modal-title fs-5" id="offerModalLabel"></h2>
+                        <h3 class="modal-title fs-6"></h3>
+                    </div>
+                    <div class="modal-body">
+                        <img class="d-block w-50" src="..." alt="...">
+                        <p id="descrizioneOff" class=""></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button id="prenota" type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#contactUsModal">PRENOTA</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="row d-flex align-items-stretch ">
+            <!-- jumbotron -->
+            <div class="col-lg-7 bg-light p-5 rounded shadow h-100 mb-sm-4">
+                <h1 class="display-4">Benvenutә!</h1>
+                <p class="lead">Viaggia con noi è una piattaforma che ti permette di organizzare viaggi low-cost. Puoi
+                    decidere di partire in solitaria o aderire ad un gruppo che ha i tuoi stessi interessi in fatto di
+                    mete, oppure organizzare te un gruppo da zero!
+                </p>
+                <p>Scorri per visualizzare le offerte già presenti, oppure <a href="#" data-bs-toggle="modal"
+                        data-bs-target="#contactUsModal">contattaci</a> per organizzare un nuovo gruppo!
+                </p>
+            </div>
+            <div class="col-lg-1"></div>
+            <!-- coupon -->
+            <div id="vincita" class="vincita col-lg-4 p-5 rounded shadow h-100">
+                <h2 class="fs-4 text-center">Scopri se hai vinto uno sconto del 5% sul tuo prossimo viaggio!</h2>
+                <div>
+                    <div id="toChange" class="toChange d-flex flex-column justify-content-center align-items-center">
+                        <label for="yourLucky" class="fs-5 mb-1">Inserisci un numero tra 1 e 50</label>
+                        <input id="yourLucky" class="mb-1" type="number">
+                        <button class="btn btn-primary" onclick="scopri()">GO</button>
+                    </div>
+                    <div id="outcome" hidden class="outcome flex-column justify-content-center align-items-center">
+                        <p class="fs-4 mb-1">Il tuo numero: <span id="numeroScelto"></span> </p>
+                        <p class="fs-4 mb-1">Numero random: <span id="numeroRandom"></span> </p>
+                        <p class="fs-4 mb-1" id="risultato"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="offertaGiorno" class="d-none d-md-block bg-light rounded shadow p-5 ">
+            <h2 class="mb-4 text-center">Non perderti l'offerta del giorno!</h2>
+            <div class="row flex-row-reverse justify-content-end align-items-center">
+                <div class="col-lg-8">
+                    <img id="giornoImg" alt="destinazioneDelGiorno" class="d-block w-100 rounded">
+                </div>
+                <div id="giornoDest" class="col-lg-4 text-end">
+                    <h3>Nazarè, Portogallo</h3>
+                    <h4>23/05 -> 25/05</h4>
+                    <p class="fs-5"></p>
+                    <button id="prenota" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactUsModal">PRENOTA SUBITOO!</button>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <div class="accordion" id="accordionOFFERTE">
+            <!-- settimana -->
+            <section id="offertaSettimana" class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Offerte della settimana
+                    </button>
+                </h2>
+                <div id="collapseOne" data-id-custom="0" class="accordion-collapse collapse "
+                    data-bs-parent="#accordionOFFERTE">
+                    <div class="accordion-body">
+                        <div id="settimana" class="row">
+
+                        </div>
+                    </div>
+                </div>
+            </section> <!-- settimana -->
+
+
+            <!-- summer -->
+            <section id="welcomeSummer" class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                        Welcome summer!
+                    </button>
+                </h2>
+                <div id="collapseTwo" data-id-custom="1" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionOFFERTE">
+                    <div class="accordion-body">
+                        <div id="summer" class="row">
+
+                        </div>
+                    </div>
+                </div>
+            </section> <!--welcome summer-->
+
+            <!-- last minute -->
+            <section id="lastMinute" class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                        Parti subito!
+                    </button>
+                </h2>
+                <div id="collapseThree" data-id-custom="2" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionOFFERTE">
+                    <div class="accordion-body">
+                        <div id="lm" class="row">
+
+                        </div>
+                    </div>
+                </div>
+            </section> <!--last minute-->
+
+
+        </div> <!--DIV ACCORDION-->
+
+
+
+
+
+        <section id="testimonial" class="text-center bg-light rounded shadow p-5 ">
+
+            <h2>Dicono di noi:</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 rounded shadow m-4">
+                    <h3 class="nomeUser text-start">Pippo</h3>
+                    <p class="commento ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique itaque
+                        cumque rerum saepe, sed sint officia inventore sequi asperiores harum nostrum quidem nisi
+                        corrupti assumenda recusandae illum iste repellat ducimus!</p>
+                </div>
+
+                <div class="col-lg-3 rounded shadow m-4">
+                    <h3 class="nomeUser text-start">Pippo</h3>
+                    <p class="commento ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, eligendi
+                        consectetur reiciendis rerum eum dolor doloremque maxime similique obcaecati nihil. Provident
+                        quam laudantium voluptas veritatis accusantium, quis est sint a?</p>
+                </div>
+
+                <div class="col-lg-3 rounded shadow m-4">
+                    <h3 class="nomeUser text-start">Pippo</h3>
+                    <p class="commento ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos possimus iusto
+                        minima aut tenetur sapiente eveniet debitis, labore officia explicabo quibusdam temporibus rem
+                        vel, cumque, veritatis laboriosam ut! Blanditiis, numquam!</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="row flex-column py-3 m-2">
+        <p class="fs-6 text-end ">© Viaggia con noi, P.Iva: xxx, Sede principale: lavoriamo solo in smart, n1 <br>email: info@viaggiaconnoi.com</p>
+        <button class="btn btn-primary col-3 align-self-end" data-bs-toggle="modal" data-bs-target="#contactUsModal">Contattaci!</a>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

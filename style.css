@@ -1,0 +1,90 @@
+#lastMinute {
+    align-items: center;
+}
+
+.showLess {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.clamp-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;       /* Numero di righe da mostrare */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;          /* Mantiene la larghezza fluida */
+    font-size: 1rem;
+    line-height: 1.5em;       /* Imposta l’altezza della riga */
+    max-height: calc(1.5em * 3);
+}
+
+.logoDiv {
+    width: 30px;
+}
+
+#offerModal img{
+    float: left;
+    margin-right: 1em ;
+}
+
+#offerModal .modal-footer {
+    justify-content: center ; 
+}
+
+.lm h5, .lm p, .lm a{
+    display: none;
+}
+.lm .card-body {
+    padding: 0;
+}
+.lm .card {
+    border: 0;
+}
+.lm img {
+    cursor: pointer;
+}
+
+.vincita {
+    border-radius: 20px;
+    background-color: #fff3cd;;
+    background-image: url('./imgs/maneki-neko-svgrepo-com.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.toChange, .outcome {
+    margin: 2em 1em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] { /*firefox */
+    -moz-appearance: textfield;
+    width: 100px;
+}
+
+.row > div {
+    height: 100%;
+}
+
+main > * {
+    margin-bottom: 1em;
+}
+
+body {
+    background-color: #F1DDFF;
+}
+
+footer {
+    border-top: 1px solid black;
+    background-image: url('./imgs/plane-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+

@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "destinazione": "Sofia, Bulgaria",
+        "descrizione": "La capitale della Bulgaria resta spesso fuori dalle classiche rotte turistiche. Ed è un vero peccato, perché è bellissima e piena di storia, oltre a essere tra le città più economiche d’Europa, sia per i costi dei voli, sia per il costo della vita. Le tracce del suo passato ricchissimo, che legano tanto all’Oriente quanto all’Occidente, sono sotto gli occhi dei viaggiatori, che restano ammaliati dalla bella commistione di epoche e stili: chiese, moschee, edifici sovietici e musei all’avanguardia si fiancheggiano, regalando alla città un’atmosfera unica, specialmente per i giovani che sanno cogliere queste sfumature interessanti. Inoltre c’è molto verde, ci sono localini bellissimi in cui viversi piacevoli serate con gli amici e, se amate la natura, c’è il massiccio Vitosha vicinissimo alla città. Di motivi ne avete abbastanza, non vi resta che prenotare!",
+        "urlImg": "https://content.skyscnr.com/m/673da0e5136c5e0d/original/GettyImages-469141143.jpg?resize=1800px:1800px&quality=100",
+        "periodo": "19/05 - 25/05",
+        "prezzo": "40€",
+        "offerta": "settimana"
+    },
+    {
+        "id": 2,
+        "destinazione": "Budapest, Ungheria",
+        "descrizione": "Tra le città europee economiche c’è anche Budapest! Gli edifici Art Nouveau, così belli e un po’ malinconici e sognanti; le imponenti cattedrali gotiche; le terme rilassanti e raffinate; le rive romantiche del Danubio, col bellissimo Parlamento a impreziosirle; i modernissimi bar tra le rovine, tipica meta delle notti brave ungheresi, e chi più ne ha più ne metta: Budapest è una scommessa vinta, che non delude davvero nessuno ed è a portata di tutte le tasche. Se andate ad agosto, imperdibile è lo Sziget Festival. Andate a scoprirlo!",
+        "urlImg": "https://content.skyscnr.com/m/6bcb69ad49d4f441/original/hungary-budapest-szechenyi-spa-thermal-baths-gettyimages-166217064.jpg?resize=1800px:1800px&quality=100",
+        "periodo": "19/05 - 25/05",
+        "prezzo": "60€",
+        "offerta": "settimana"
+    },
+    {
+        "id": 3,
+        "destinazione": "Cracovia, Polonia",
+        "descrizione": "La Polonia è in generale una meta economica dove trascorrere una vacanza low cost, eppure è ricca di posti bellissimi. In particolare vi consigliamo Cracovia, che vi saprà immergere nelle mille sfaccettature della cultura polacca e vi sorprenderà per la sua romantica atmosfera d’altri tempi, da godere in particolare nella piazza principale, Patrimonio UNESCO, e per la sua ottima cucina: i piatti tipici andrebbero davvero provati tutti, ma in particolare non lasciatevi scappare i pierogi, dei ravioli ripieni di diverse prelibatezze. Fidatevi, li vorrete assaggiare in ogni salsa. Includete nel tour un giro nel quartiere ebraico della città: è meno turistico e quindi più autentico, ma soprattutto vi racconterà tante piccole storie intrecciate alla grande Storia del Novecento. E per finire, vicino a Cracovia, programmate una tappa nella miniera di sale di Wieliczka: un mondo sotterraneo affascinante e luccicante!",
+        "urlImg": "https://content.skyscnr.com/m/2a0ec9021db654b4/original/GettyImages-498657636.jpg?resize=1800px:1800px&quality=100",
+        "periodo": "19/05 - 25/05",
+        "prezzo": "46€",
+        "offerta": "settimana"
+    },
+    {
+        "id": 4,
+        "destinazione": "Lisbona, Portogallo",
+        "descrizione": "Una delle più belle, tra le città europee economiche da vedere, è sicuramente Lisbona! Lisbona è indolente, inafferrabile, bellissima e… decisamente low cost! L’aria frizzante dell’Oceano; le linee sinuose ed eleganti delle vie scoscese e ripide, col blu del mare in fondo, che nel loro andamento seguono i pendii delle colline su cui sorge la capitale del Portogallo; le cattedrali maestose e i tanti quartieri. Brindate alla vostra con un (economico) buon bicchiere di Porto!",
+        "urlImg": "https://content.skyscnr.com/m/73714be26b73272a/original/GettyImages-481628378.jpg?resize=1800px:1800px&quality=100",
+        "periodo": "19/05 - 25/05",
+        "prezzo": "50€",
+        "offerta": "giorno"
+    },
+    {
+        "id": 5,
+        "destinazione": "Bratislava, Slovacchia",
+        "descrizione": "Bratislava è forse una destinazione insolita per molti, ma, vi assicuriamo, è bellissima e super economica. La capitale della Slovacchia è una città che sa sedurre anche il più scettico dei viaggiatori con le sue attrazioni, prima fra tutte il castello e la famosa chiesa blu, ma anche il ponte sul Danubio, futuristico, che ricorda una navicella spaziale – come dicono gli abitanti. E poi la vivacità culturale: vi basti sapere che qui si svolge la Biennale dell’Illustrazione. E ancora, se avete tempo di esplorare anche altre zone della Slovacchia, vi consigliamo le varie chiese di legno dei Carpazi, che sono in tutto otto e sono Patrimonio dell’Umanità UNESCO. Oppure uno dei 9 Parchi Nazionali, per avvicinarvi alla fauna e alla flora ricchissima di queste zone. Low cost, cultura e natura: questa è Bratislava! E Vienna, ricordate, è a circa un’ora di treno.",
+        "urlImg": "https://content.skyscnr.com/m/593601933b7a1418/original/GettyImages-475905767_doc.jpg?resize=1800px:1800px&quality=100",
+        "periodo": "19/05 - 25/05",
+        "prezzo": "40€",
+        "offerta": "summer"
+    },
+    {
+        "id":6,
+        "destinazione": "La Valletta, Malta",
+        "descrizione": "La Valletta. la bella capitale di Malta, è una città ricca di storia. Le cose da vedere infatti sono tante. Non per niente l’isola si trova nel bel mezzo del Mediterraneo e, questa sua posizione strategica, l’ha resa ambita da molti popoli. Cosa vedere a La Valletta? Passeggiando per le pittoresche stradine di questa città, si scorgono facilmente tracce lasciate dai Cavalieri di Malta, dalla dominazione francese e da quella inglese. Ma non mancano anche i segni devastanti della seconda guerra mondiale. Lo sapevi che il centro storico di La Valletta è stato dichiarato patrimonio dell’UNESCO e che, nel 2018, è stata Capitale Europea della Cultura?",
+        "urlImg":"https://content.skyscnr.com/m/087657393be24faa/original/malta-valletta-gettyimages-472203962.jpg?resize=1800px:1800px&quality=100",
+        "periodo":"19/05 - 25/05",
+        "prezzo":"50€",
+        "offerta": "summer"
+    },
+    {
+        "id":7,
+        "destinazione":"Bucarest, Romania",
+        "descrizione":"Non poteva mancare Bucarest, tra le città europee low cost. Di solito Bucarest, capitale della Romania, è solo una tappa di passaggio per chi si muove verso la magica Transilvania. Eppure questa è una capitale che sa stupire: qui il passato comunista e le tradizioni balcaniche incontrano l’Europa e le culture che vengono da ovest. E dove ci sono incontri così interessanti, l’atmosfera che si crea merita sempre di essere vissuta appieno. L’architettura rispecchia questo mélange: imponenti chiese ortodosse e, un attimo dopo, edifici modernissimi e ville eleganti, giganteschi palazzoni sovietici e architettura d’avanguardia. Puntate al chiasso allegro del vivacissimo mercato di Obor, in cui potrete spulciare tra libri, vinili e chincaglierie di ogni tipo, oppure acquistare le rinomate salsicce Sibiu, le trecce di cipolle e il buonissimo miele locale.",
+        "urlImg":"https://content.skyscnr.com/m/77dff3c214e6bf3c/original/GettyImages-484376014.jpg?resize=1800px:1800px&quality=100",
+        "periodo":"19/05 - 25/05",
+        "prezzo":"42€",
+        "offerta": "settimana"
+    },
+    {
+        "id":8,
+        "destinazione":"Lussemburgo",
+        "descrizione":"E se cercate una destinazione low cost in Europa: non sottovalutate il Granducato del Lussemburgo e la sua capitale Lussemburgo! Capitale in pieno fermento artistico, economico e culturale dell’omonimo Paese. Magari il costo della vita non sarà bassissimo come quello di altre capitali, ma non è nemmeno eccessivo come si tende a credere, e soprattutto i voli costano davvero poco. Partite dalla Gran Rue, che attraversa tutto il centro storico ed è interamente pedonale: qui approfittate per acquistare i prodotti tradizionali, come cioccolato, porcellane, cristalli e birre artigianali e poi perdetevi tra le stradine aggrovigliate e godetevi lo spettacolo dei tetti e delle guglie che tendono al cielo, fiabesche ed eleganti, immerse nel verde cittadino…",
+        "urlImg":"https://content.skyscnr.com/m/33b360e9078aaee9/original/GettyImages-508670145_doc.jpg?resize=1800px:1800px&quality=100",
+        "periodo":"19/05 - 25/05",
+        "prezzo":"57€",
+        "offerta": "summer"
+    },
+    {
+        "id":9,
+        "destinazione":"Berlino, Germania",
+        "descrizione":"I club underground e le discoteche più famose d’Europa, i musei di altissimo livello, i parchi di tendenza e i giardini curati, l’antico e il moderno a confronto: Berlino è creativa, è frenetica, è intelligente e alla portata di tutti grazie ai prezzi davvero low cost, soprattutto se rapportati al resto della Germania. Una capitale che ha saputo fare della sperimentazione la chiave per aprire le porte dell’arte, della moda, della musica e del design. Una capitale che va mangiata a morsi, vissuta in strada, in ogni centimetro: godetevi l’atmosfera di Alexanderplatz, fate le vostre riflessioni davanti alla parte del Muro di Berlino ancora in piedi, passeggiate lungo la Sprea, ammirate la Porta di Brandeburgo, simbolo della città. Non avete bisogno di altri motivi per chiudere la valigia!",
+        "urlImg":"https://content.skyscnr.com/m/09975dc3106b7bb2/original/GettyImages-187876200.jpg?resize=1800px:1800px&quality=100",
+        "periodo":"19/05 - 25/05",
+        "prezzo":"100€",
+        "offerta": "lm"
+    }, 
+    {
+        "id":10,
+        "destinazione": "Nazarè, Portogallo",
+        "descrizione": "Situata sulla Costa Atlantica è famosa in tutto il mondo come paradiso dei surfisti: alcune di queste onde sono alte più di un edificio a 10 piani. La conformazione di Nazaré è molto particolare e segnata dal promontorio del faro. A sud del faro si trova una spiaggia molto tranquilla, la spiaggia principale di Nazaré. A nord del faro, si trova la spiaggia di Praia do Norte, dal temperamento più agitato e dove si possono vedere le famose big waves. Questo proprio grazie alla sua posizione: la Praia do Norte è infatti il punto finale di un canyon sottomarino lungo 230 km e profondo tremila metri che termina proprio vicino alla spiaggia e al promontorio.",
+        "urlImg": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.portugalthings.com%2Fwp-content%2Fuploads%2F2022%2F08%2FO-que-fazer-na-Nazare-cover.jpg&f=1&nofb=1&ipt=c0cfad74a9840f05d3353d7d32bc85f76b2737e0349784bfb70b29cdc19a17bf",
+        "periodo":"19/05 - 25/05",
+        "prezzo": "150€",
+        "offerta": "summer"
+    },
+    {
+        "id": 11,
+        "destinazione": "Edimburgo, Scozia", 
+        "descrizione": "Distribuita su sette colli e attraversata da vicoli medievali che si estendono tra le grandi piazze civiche, Edimburgo è l'esatto contrario dell'espressione 'tutto fumo e niente arrosto'. La storia trabocca da ogni angolo scavato nell’arenaria, ma la vivacità dei tempi moderni non manca nei parchi, nei pub e nei dintorni. Edimburgo non è solo una meta da visitare, è una città in cui immergersi dalla testa ai piedi.",
+        "urlImg": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.D4V0Nv3iaoYivnu_eJwcZAHaE7%26cb%3Diwc2%26pid%3DApi&f=1&ipt=0db68d1846d08744aa9975fb1731f9f0a8e7784bbca7f46320ab6880e86a783f&ipo=images",
+        "periodo":"19/05 - 25/05",
+        "prezzo":"200€",
+        "offerta": "summer"
+    },
+    {
+        "id":12,
+        "destinazione": "Ayamonte, Spagna",
+        "descrizione": "Situata vicino al fiume Guadiana, Ayamonte è una città al confine con il Portogallo sulla Costa de la Luz. Qui si può facilmente prendere il traghetto per il Portogallo per visitare Vila Real de Santo Antonio, senza spendere troppo grazie ai costi molto contenuti. Una bellezza senza frontiere, questa città è stata d’ispirazione per molti artisti e offre numerosi luoghi di cultura da vedere.",
+        "urlImg": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.jrFHg6QGaS46fTvx2sCifwHaE8%3Fpid%3DApi&f=1&ipt=1b42cd5c8ab8a973b21dd82e58e6963e818dce0e70220e0353f71c2ec0f63375&ipo=images",
+        "periodo":"19/05 - 25/05",
+        "prezzo": "210€",
+        "offerta": "summer"
+    },
+    {
+        "id":13,
+        "destinazione": "Roma, Italia",
+        "descrizione": "Roma è la città con la più alta concentrazione di beni storici e architettonici al mondo; dal 1980 il suo centro storico è parte del patrimonio UNESCO. Il nucleo centrale e antico della città è costituito dagli storici sette colli: Palatino, Aventino, Campidoglio, Quirinale, Viminale, Esquilino e Celio.",
+        "urlImg": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5hdmuMxWIFm828ciWRNhRAHaEK%26cb%3Diwp2%26pid%3DApi&f=1&ipt=cfd332870a5c0f38bfc5d203826f8387bb83028ffa7b5e6ae93badd8c71514cb&ipo=images",
+        "periodo":"19/05 - 25/05",
+        "prezzo":"200€",
+        "offerta": "lm"
+    },
+    {
+        "id":14,
+        "destinazione": "Napoli, Italia",
+        "descrizione": "Napoli, città di contrasti, colori vivaci e tradizioni secolari, è un luogo dove ogni angolo racconta una storia. Dalla stazione Toledo ai vicoli dei Quartieri Spagnoli, dal panorama sul Golfo di Napoli alla cucina tipica che delizia ogni palato, preparati a vivere un’esperienza unica.",
+        "urlImg": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.R0Q7MCj0u-1lH8xqzoIBGAHaE8%26cb%3Diwc2%26pid%3DApi&f=1&ipt=267755273b4cf910562eaed1a6274bc64eea2b5dad884ba1954d6058ef8348ec&ipo=images",
+        "periodo":"19/05 - 25/05",
+        "prezzo":"200€",
+        "offerta":"lm"
+    }
+]
